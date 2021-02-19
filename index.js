@@ -1,6 +1,8 @@
 import { GraphQLServer } from 'graphql-yoga';
 import resolvers from './graphql/resolvers';
 
+console.log('hi');
+
 const server = new GraphQLServer({
   typeDefs: `
   type Movie {
