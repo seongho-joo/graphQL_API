@@ -2,6 +2,7 @@ import { GraphQLServer } from 'graphql-yoga';
 import resolvers from './graphql/resolvers';
 
 console.log('hi');
+console.log('hello');
 
 const server = new GraphQLServer({
   typeDefs: `
